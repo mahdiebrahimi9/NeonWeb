@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiJsBadge, DiNodejs } from 'react-icons/di';
+import { DiFirebase, DiReact, DiJsBadge, DiNodejs , DiPhp } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -7,9 +7,9 @@ const Technologies = () => (
   <Section id='tech'>
     <SectionDivider />
     <br />
-    <SectionTitle>Techonologest</SectionTitle>
+    <SectionTitle>استفاده از بهترین تکنولوژی های روز دنیا </SectionTitle>
     <SectionText>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora perspiciatis nihil illum dolorem cumque animi doloribus nemo deserunt fuga, neque, velit reiciendis quaerat magnam fugiat. Reiciendis qui natus repudiandae corporis?
+      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
     </SectionText>
     <List>
       <ListItem>
@@ -22,7 +22,7 @@ const Technologies = () => (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiNodejs size="3rem" />
+        <DiPhp size="3rem" />
         <ListContainer>
           <ListTitle> Back-End </ListTitle>
           <ListParagraph>EXPRINCEV with <br />

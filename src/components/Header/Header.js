@@ -10,17 +10,17 @@ const Header = () => (
     <Div1 href="/">
       <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: "20" }}>
 
-        <DiCssdeck size="3rem" /><Span>Neon Web</Span>
+        <DiCssdeck size="3rem" /><Span>NEON WEB </Span>
       </a>
     </Div1>
     <Div2>
       <li>
         <link href="#projects" />
-        <NavLink>پروژه ها</NavLink>
+        <NavLink>محصولات</NavLink>
       </li>
       <li>
         <link href="#tech" />
-        <NavLink> فن آوری ها</NavLink>
+        <NavLink>خدمات</NavLink>
       </li>
       <li>
         <link href="#about" />

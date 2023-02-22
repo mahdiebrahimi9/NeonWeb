@@ -9,17 +9,17 @@ const Footer = () => {
     <FooterWrapper>
       <LinkList>
         <LinkColumn>
-          <LinkTitle> Call</LinkTitle>
-          <LinkItem href="tel:09147348195">09147348195</LinkItem>
+          <LinkTitle> تماس با ما</LinkTitle>
+          <LinkItem href="tel:09147348195">111-111-111</LinkItem>
         </LinkColumn>
         <LinkColumn>
-          <LinkTitle> Email</LinkTitle>
+          <LinkTitle> ایمیل</LinkTitle>
           <LinkItem href="mailto:mahdi78eb@gmail.com">mahdi78eb@gmail.com</LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan> innovating one project at a time </Slogan>
+          <Slogan>ما موتور رشد کسب و کار شما هستیم. </Slogan>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href='https://github.com'>

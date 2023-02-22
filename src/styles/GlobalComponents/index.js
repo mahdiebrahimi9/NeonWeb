@@ -26,7 +26,7 @@ export const Section = styled.section`
 
 export const SectionTitle = styled.h2`
   font-weight: 800;
-  font-size: ${(props) => props.main ? '65px' : '56px'};
+  font-size: ${(props) => props.main ? '40px' : '40px'};
   line-height: ${(props) => props.main ? '72px' : '56px'};
   width: max-content;
   max-width: 100%;
@@ -56,7 +56,7 @@ export const SectionTitle = styled.h2`
 
 export const SectionText = styled.p`
   max-width: 800px;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 40px;
   font-weight: 300;
   padding-bottom: 3.6rem;
@@ -82,7 +82,7 @@ export const SectionDivider = styled.div`
   height: 6px;
   border-radius: 10px;
   background-color: #fff;
-  background: ${(props) => props.colorAlt ? 
+  background: ${(props) => props.colorAlt ?
     'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' :
     'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
 
@@ -148,7 +148,7 @@ export const SecondaryBtn = styled.button`
   }
 
   @media ${(props) => props.theme.breakpoints.md}{
-    margin-top: 24px; 
+    margin-top: 24px;
     margin-bottom: 64px;
     padding: 16px 24px;
     width: fit-content;
@@ -268,7 +268,7 @@ export const LinkContainer = styled.div`
 `
 
 export const LinkIconImg = styled.div`
-  display: flex;  
+  display: flex;
   height: ${({ large }) => large ? '32px' : '24px'};
 
   @media ${(props) => props.theme.breakpoints.md} {

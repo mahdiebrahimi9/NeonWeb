@@ -10,7 +10,7 @@ const Projects = () => (
   <Section nopadding id='projects'>
     <SectionDivider />
     <SectionTitle main>
-      Projects
+      محصولات
     </SectionTitle>
     <GridContainer>
       {projects.map(({ id, image, title, description, tags, source, visit }) =>
@@ -25,8 +25,9 @@ const Projects = () => (
             <Hr />
           </TitleContent>
           <CardInfo>{description}</CardInfo>
+          <br />
           <div>
-            <TitleContent>stack</TitleContent>
+            <TitleContent>تکنولوژی های استفاده شده :</TitleContent>
             <TagList>
               {tags.map((tag, i) => (
                 <Tag key={i}>{tag}</Tag>
@@ -35,7 +36,7 @@ const Projects = () => (
           </div>
           <UtilityList>
             <ExternalLinks href={visit}>Code </ExternalLinks>
-            <ExternalLinks href={visit}>Sorec </ExternalLinks>
+            <ExternalLinks href={visit}>source  </ExternalLinks>
           </UtilityList>
         </BlogCard>
       )

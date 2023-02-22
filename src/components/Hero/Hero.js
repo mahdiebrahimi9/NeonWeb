@@ -9,13 +9,14 @@ const Hero = (props) => (
 
     <LeftSection>
       <SectionTitle main center>
-        Welcome to <br />
-        my personal protfolio
+        نئون وب
+        <br />
+        دیجیتال مارکتینگ و طراحی وب سایت
       </SectionTitle>
       <SectionText>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio quae, aut beatae deleniti reprehenderit voluptatibus reiciendis dolor ratione, doloremque amet ipsam quas. Ipsam alias quibusdam veniam quod culpa recusandae sed.
+      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز 
       </SectionText>
-      <Button onClick={() => window.location = "https://google.com"}>learn more</Button>
+      <Button onClick={() => window.location = "https://google.com"}>بیشتر بدانید</Button>
 
     </LeftSection>
   </Section >
