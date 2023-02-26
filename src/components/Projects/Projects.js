@@ -7,10 +7,10 @@ import { Div1 } from '../Header/HeaderStyles';
 import { DiTypo3 } from 'react-icons/di';
 
 const Projects = () => (
-  <Section nopadding id='projects'>
+  <Section nopadding id="projects">
     <SectionDivider />
     <SectionTitle main>
-      محصولات
+      نمونه کارها
     </SectionTitle>
     <GridContainer>
       {projects.map(({ id, image, title, description, tags, source, visit }) =>
