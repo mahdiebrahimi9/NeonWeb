@@ -15,15 +15,15 @@ const Header = () => (
     </Div1>
     <Div2>
       <li>
-        <link href="#projects" />
+        <Link href="#projects" />
         <NavLink>نمونه کارها</NavLink>
       </li>
       <li>
-        <link href="#tech" />
+        <Link href="#tech" />
         <NavLink>خدمات</NavLink>
       </li>
       <li>
-        <link href="#about" />
+        <Link href="#about" />
         <NavLink>درباره ما</NavLink>
       </li>
     </Div2>

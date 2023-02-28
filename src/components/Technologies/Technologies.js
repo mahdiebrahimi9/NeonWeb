@@ -9,11 +9,11 @@ const Technologies = () => (
     <br />
     <SectionTitle>استفاده از بهترین تکنولوژی های روز دنیا </SectionTitle>
     <SectionText>
-      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+    مهم‌ترین ویژگی متمایزکننده نئون وب نسبت به سایر رقبا در طراحی وب‌سایت، بهره‌گیری از جدیدترین متد و فناوری روز دنیا و به‌کار بردن دانش برنامه‌نویسی و خلاقیت برای خدمات طراحی وب و پورتال به شکلی نو و منحصربه‌فرد است.
     </SectionText>
     <List>
       <ListItem>
-        <DiReact size="3rem" />
+        <DiReact size="4rem" />
         <ListContainer>
           <ListTitle>  Front-End </ListTitle>
           <ListParagraph>EXPRINCEV with <br />
@@ -22,7 +22,7 @@ const Technologies = () => (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiPhp size="3rem" />
+        <DiNodejs size="4rem" />
         <ListContainer>
           <ListTitle> Back-End </ListTitle>
           <ListParagraph>EXPRINCEV with <br />
@@ -31,7 +31,7 @@ const Technologies = () => (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiJsBadge size="3rem" />
+        <DiJsBadge size="4rem" />
         <ListContainer>
           <ListTitle>  UI/UX </ListTitle>
           <ListParagraph>EXPRINCEV with <br />

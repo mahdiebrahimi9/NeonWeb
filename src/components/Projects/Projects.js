@@ -3,8 +3,6 @@ import React from 'react';
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
-import { Div1 } from '../Header/HeaderStyles';
-import { DiTypo3 } from 'react-icons/di';
 
 const Projects = () => (
   <Section nopadding id="projects">
@@ -16,7 +14,7 @@ const Projects = () => (
       {projects.map(({ id, image, title, description, tags, source, visit }) =>
       (
         <BlogCard key={id}>
-          <img src={image} />
+          <Img src={image} />
           <TitleContent>
 
             <HeaderThree title>

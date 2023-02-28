@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
@@ -14,7 +13,8 @@ const Hero = (props) => (
         طراحی سایت، طراحی فروشگاه اینترنتی و ساخت اپلیکیشن
       </SectionTitle>
       <SectionText>
-        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
+
+نئون وب با بیش از 5 سال سابقه فعالیت در زمینه طراحی سایت و اپلیکیشن های موبایل و تکمیل بیش از 500 پروژه در طول سال های فعالیت خود، اکنون بروزترین متدها و تکنیک های طراحی سایت و برنامه نویسی را در اختیار دارد و آماده طراحی برترین وب سایت ها و اپلیکیشن های موبایل برای مشتریان خود می باشد.
       </SectionText>
       <Button onClick={() => window.location = "https://google.com"}>بیشتر بدانید</Button>
 
